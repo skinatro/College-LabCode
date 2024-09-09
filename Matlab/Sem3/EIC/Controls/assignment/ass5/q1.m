@@ -1,0 +1,5 @@
+num = conv([4],[1 2])
+den = conv([1 0],conv([1 5],[1 10]))
+g = tf(num,den)
+bode(g)
+margin(g)
